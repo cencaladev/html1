@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Documentos</title>
+
+
+    <style>
+        .texto {
+            color: red;
+        }
+    </style>
+
+    <script>
+        
+        class Person {
+            constructor(name, last) {
+                this.name = name
+                this.last = last
+            }
+
+            getFullName() {
+                return this.name + " " + this.last
+            }
+        }
+
+        
+        const person1 = new Person("Juan", "Perez")
+
+        const person2 = new Person("Pedro", "Muriel")
+
+        person1.name = "Raul"
+        
+        console.log(person1, person2)
+
+        console.log(person1.getFullName())
+
+    </script>
+
+</head>
+<body>
+
+</body>
+</html>
