@@ -1,0 +1,144 @@
+@import url(https://fronts.googleapis.com/css2?family=poppins:wght@400;500;600;700;800&family=satisfy&display=swap);
+/*
+front-family:'poppins´,sans-serif;
+front-family:'satisfy',cursive;
+*/
+*{
+    margin: 0;
+    padding: 1;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+    .informacion-1{
+        max-width: 1200%;
+
+    }
+
+body{
+    font-family: 'pappins',sans-serif;
+    background-color: #eec88bf6;
+}
+img{
+    max-width: 100%;
+}
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.header{
+    background: linear-gradient(
+        rgba(0 84% 4% / 0.89)
+        #0cdf5d66
+    ),
+    url(imagenes/download.jpg);
+    
+    background-position: center center;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    min-height: 70vh;
+    padding: 50px 0 0 0;
+}
+.menu{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo{
+    color: #ee5812;
+    text-transform: uppercase;
+    font-size: 30px;
+    font-weight: 800;
+    
+}
+.menu.navbar ul li {
+    position: relative;
+    float: left;
+}
+.menu.navbar ul li a {
+    font-size: 18px;
+    padding: 20px;
+    color: #ec6c45;
+    display: block;
+    font-weight: 600;
+}
+.menu.navbar ul il a:hover{
+     color: hsl(128, 90%, 41%);
+}
+.menu.icono{
+    width: 34px;
+}
+.menu label{
+    cursor: pointer;
+    display: nome;
+}
+.header-txt{
+    text-align: center ;
+}
+.header-txt h1{
+    font-size: 75px;
+    font-family: 'satisfy',cursive;
+    color: aliceblue;
+    line-height: 1;
+    margin-bottom: 15px;
+}
+.header-txt p {
+    font-size: 35px;
+    color: antiquewhite;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+.informacion-content{
+    display: flex;
+    justify-content: space-between;
+    box-shadow: 0 0 20px rgba(0,0,0,0.2);
+    margin-top: -50px;
+}
+.informacion-1{
+    flex-basis: 30%;
+}
+.informacion-c1{
+    padding: 45px;
+    text-align: center;
+    background-color: antiquewhite;
+    height: 300px;
+}
+
+h3{
+    font-size: 40px;
+    font-family: 'satisfy',cursive;
+    color: #2c2c2c;
+
+}
+.btn-1{display: inline-block;
+    padding: 11px 35px;
+    border: 2px solid #C9A538;
+    margin-top: 10px;
+ color:#C9A538;
+}
+.btn-2{
+    display: inline-block;
+    margin-top: 10px;
+    color:#C9A538;
+    text-transform: uppercase;
+
+}
+.precio{
+    font-size: 25px !important;
+    color: #C9A538;
+    font-weight: 700;
+    margin-left: 15px;
+}
+
+
+
+
+
+
+
+

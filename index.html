@@ -1,86 +1,283 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Documentos</title>
-
-
-    <style>
-        .texto {
-            color: red;
-        }
-    </style>
-
-    <script>
-        
-        class Person {
-            constructor(name, last) {
-                this.name = name
-                this.last = last
-            }
-
-            getFullName() {
-                return this.name + " " + this.last
-            }
-        }
-
-        
-        const person1 = new Person("Juan", "Perez")
-
-        const person2 = new Person("Pedro", "Muriel")
-
-        person1.name = "Raul"
-        
-        console.log(person1, person2)
-
-        console.log(person1.getFullName())
-
-    
-    </script>
-
-    <style>
-        html, body {
-            margin: 0;
-        }
-        nav {
-            background-color: lightgray;
-            padding: 10px;
-        }
-        nav ul {
-            display: flex;
-            width: 90%;
-            justify-content: space-around;
-        }
-        nav ul li {
-            list-style: none;
-        }
-        nav ul li a {
-            color: darkslategray;
-            padding: 10px;
-            border-radius: 6px;
-            border: 1px dotted gray;
-            background-color: aquamarine;
-            text-decoration: none;
-        }
-        nav ul li a:hover {
-            background-color: cadetblue;
-            text-decoration: underline;
-            color: antiquewhite;
-        }
-    </style>
-
+    <title>comida</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <nav>
-        <ul>
-            <li><a href="index.html">Inicio</a></li>
-            <li><a href="samuel.html">Samuel</a></li>
-            <li><a href="santiago.html">Santiago</a></li>
-            <li><a href="esteban.html">Esteban</a></li>
-            <li><a href="yancarlo.html">Yancarlo</a></li>
-        </ul>
-    </nav>
-    <p>Este Cambio es de David </p>
+    <header class="header">
+        <div class="menu container">
+            <a href="#"class="logo">logo</a>
+            <input type="checkbox"id="menu"/>
+            <isabel for="menu">
+                
+            </isabel>
+            <nav class="navbar">
+                <ul>
+                    <li><a href="#">inicio</a></li>
+                    <li><a href="#">servicios</a></li>
+                    <li><a href="#">productos</a></li>
+                    <li><a href="#">contacto</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div class="header-content">
+            <div class="header-txt">
+                <h1>El mejor menu</h1>
+                <p>
+                    comida especial
+                </p>
+            </div>
+
+        </div>
+    
+    </header>
+
+    <section class="information container">
+        <div class="information-content">
+            <div class="informacion-1">
+                <div class="information-c1">
+                    <h3>DELICIAS</h3>
+                    <P>
+                        PUEBA NUESTRAS DELICIAS DEL MENU ESPECIAL
+
+                    </P>
+                    
+                    <a href="#" class="btn-1">IMFORMACION</a>
+                    <P>
+                        PRUEBA LO MEJOR DE LO MEJOR
+                    </P>
+                </div>
+                <div class="informacion-a1">
+                    <img src="imagenes/Calma-tus-antojos-con-deliciosas-y-rapidas-recetas-Foto-destacada.png" alt="">
+                    <p>
+                        PRUEBALO YA
+                    </p>
+
+
+                </div class="informacion-2">
+                <div class="informacion-b1">
+                    
+                
+                <div class="information-c1">
+                    
+                    <h3>RESERVACIONES</h3>
+                    <p>
+                        PUEDEN RESERVAR LOS DIAS
+                        LUNES,MATES,JUEVES Y SABADOS
+
+                    </p>
+                    <a href="#" class="btn-1">informacion</a>
+                    
+                </div>
+        
+
+            </div>
+        </div>
+    </section>
+    <section class="our">
+        <div class="container">
+            <h2>
+                Nuestras especialidades
+            </h2>
+
+        </div>
+
+    </section>
+    <section class="oferts">
+        <div class="oferts-content container">
+            <div class="oferts-1">
+                <div class="oferts-txt">
+                    <h3>BANDEJA PAISA</h3>
+                   
+                    <a href="#" class="btn-2">INFORMACION</a>
+                    <P>
+                        PRUEBALA YA
+                    </P>
+                    
+
+                </div>
+                <div class="ofert-img">
+                    <img src="imagenes/images.jpg" alt="">
+
+                </div>
+                <div class="oferts-1">
+                    <div class="oferts-txt">
+                        <h3>HAMBURGUESA</h3>
+    
+                        <a href="#" class="btn-2">INFORMACION</a>
+                        <p>
+                            Trae = tocineta,queso,papitas,carne al carbon y ensalada.
+                         </p>
+                    
+                    </div>
+                    <div class="ofert-img">
+                        <img src="imagenes/images2.jpg" alt="">
+    
+                    </div>
+                    <div class="oferts-1">
+                        <div class="oferts-txt">
+                            <h3>PERROS</h3>
+                          
+                            <a href="#" class="btn-2">INFORMACION</a>
+                            <p>
+                                Trae = tocineta,ensada,queso,carne desmechada.
+                            </p>
+        
+                        </div>
+                        <div class="ofert-img">
+                            <img src="imagenes/images3.jpg" alt="">
+        
+                        </div>
+                        <div class="oferts-1">
+                            <div class="oferts-txt">
+                                <h3>PAPAS</h3>
+                             
+                                <a href="#" class="btn-2">INFORMACION</a>
+                                <p>
+                                    Trae = tocineta,carne desmechada,queso y salchicha.
+                                </p>
+            
+                            </div>
+                            <div class="ofert-img">
+                                <img src="imagenes/images4.jpg" alt="">
+            
+                            </div>
+                        </div>
+                        <div class="oferts-1">
+                            <div class="oferts-txt">
+                                <h3>TACOS</h3>
+                              
+                                <a href="#" class="btn-2">INFORMACION</a>
+                                <p>
+                                    Trae = carne desmechada,vegetales,queso,salsa de la casa y guacamole.
+
+                                </p>
+
+            </div>
+
+
+        </div>
+
+    </section>
+    <section class="bg"></section>
+    <section class="food container">
+
+        <h2>MENU</h2>
+        <span>ESCOGE A TU GUSTO</span>
+        <div class="food-content">
+            <div class="left">
+                <div class="food-1">
+                    <h3>perros</h3>
+                    <div class="food-txt">
+                        
+                        <p class="precio">
+                            $18.000
+                        </p>
+
+                    </div>
+
+                </div>
+                <div class="food-1">
+                    <h3>hamburguesa</h3>
+                    <div class="food-txt">
+                        
+                        <p class="precio">
+                            $20.000
+                        </p>
+
+                    </div>
+
+                </div>
+                <div class="food-1">
+                    <h3>tacos</h3>
+                    <div class="food-txt">
+                        
+                        <p class="precio">
+                            $19.000
+                        </p>
+
+                    </div>
+
+                </div>
+                <div class="food-1">
+                    <h3>empandas</h3>
+                    <div class="food-txt">
+                        
+                        <p class="precio">
+                            $1.800
+                        </p>
+
+                    </div>
+
+                </div>
+                <div class="food-1">
+                    <h3>bandeja paisa</h3>
+                    <div class="food-txt">
+                        
+                        <p class="precio">
+                            $22.000
+                        </p>
+
+                    </div>
+
+                </div>
+                <div class="food-1">
+                    <h3>chorizo</h3>
+                    <div class="food-txt">
+                        
+                        <p class="precio">
+                            $15.000
+                        </p>
+
+                    </div>
+
+                </div>
+                <div class="food-1">
+                    <h3>papas</h3>
+                    <div class="food-txt">
+                        
+                        <p class="precio">
+                            $17.000
+                        </p>
+
+                    </div>
+
+                </div>
+
+
+            </div>
+            
+
+        </div>
+
+    </section>
+    <footer class="footer">
+        <div class="footer-content container">
+            <div class="link">
+                <span class="logo">logo</span>
+
+            </div>
+            <div class="link">
+                <ul>
+                    <li><a href="#">lorem</a></li>
+                    <li><a href="#">lorem</a></li>
+                    <li><a href="#">lorem</a></li>
+                    <li><a href="#">lorem</a></li>
+                    <li><a href="#">lorem</a></li>
+                </ul>
+
+            </div>
+
+        </div>
+
+    </footer>
+    
+
+    
+    
+
 </body>
 </html>
